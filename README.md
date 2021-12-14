@@ -1,4 +1,4 @@
-# 03 JavaScript Challenge: Password Generator
+# 04 Web APIs Challenge: Code Quiz
 
 AS A coding boot camp student </br>
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores</br>
