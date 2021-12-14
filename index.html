@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Harry Potter Trivia Quiz</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="highscores">
+        <a href="hs.html">High Scores</a>
+      </div>
+
+      <div class="timer">
+        Time left:
+        <span id="time"> 0 </span>
+      </div>
+
+      <div class="bigbox">
+        <section class="start-section" id="start" class="visible">
+          <h1>Harry Potter Trivia Quiz</h1>
+          <p>Answer all of the questions as fast as you can!</p>
+          <button id="start-button">Start!</button>
+        </section>
+
+        <section id="questions-section" class="hidden">
+          <h2 id="question-title"></h2>
+          <div class="choices-list" id="choices-list"></div>
+          <div class="rightWrong"></div>
+        </section>
+
+        <section id="end-section" class="hidden">
+          <h2>You did it!</h2>
+          <p>Your score is <span id="score"></span>!</p>
+          <p>
+            Initials: <input type="text" id="initials" />
+            <button id="submit-button">Submit</button>
+          </p>
+        </section>
+      </div>
+    </main>
+    <script src="js/questions.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
